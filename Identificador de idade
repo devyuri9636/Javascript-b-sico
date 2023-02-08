@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var idade = parseInt(prompt("Digite a idade:", ""));
+
+        var ano = parseInt(prompt("Digite o ano atual", ""));
+
+        var nasc = parseInt(prompt("Ano que nasceu", ""))
+
+         var idadeAtual = ano - idade;
+            
+         document.write (`<br>idade no ano atual: ${idade}`);
+
+        document.write (`<br>Ano de nascimento: ${nasc}`);
+
+
+        var idade2050 = nasc - 2050;
+
+        document.write (`<br>Idade em 2050: ${idade2050}`);
+
+    </script>
+    
+</body>
+</html>
